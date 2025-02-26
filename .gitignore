@@ -1,0 +1,19 @@
+# Ignorar node_modules (pastas de dependências do Node.js)
+node_modules/
+
+# Ignorar arquivos de build
+dist/
+build/
+out/
+
+# Ignorar arquivos de dependências
+package-lock.json
+yarn.lock
+
+# Ignorar arquivos de sistema do Windows/macOS/Linux
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas do editor de código
+.vscode/
+.idea/
